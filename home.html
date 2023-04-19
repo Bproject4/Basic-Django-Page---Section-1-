@@ -1,0 +1,14 @@
+{% extends "_base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block extra_css %}
+<style>
+
+</style>
+{% endblock %}
+
+{% block main %}
+<h1>Home</h1>
+<a class="nav-link" href="{% url 'pages:homepage' %}" style="color: blue;">Home</a>
+{% endblock main %}

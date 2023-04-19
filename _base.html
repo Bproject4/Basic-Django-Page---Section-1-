@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+{% block html %}
+<html lang="en">
+<head>
+{% block head %}  
+
+<title>{% block title %}{% endblock %} | Django project</title>
+{% endblock head %}
+</head>
+<body>
+  {% block body %}
+<header>
+  {% block header %}
+
+
+  {% endblock header %}
+</header>
+{% block main %}{% endblock main %}
+
+
+  {% block footer %}
+
+  {% endblock footer %}
+</footer>
+{% endblock body %}
+
+</body>
+{% endblock html %}
+</html>
